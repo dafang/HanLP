@@ -21,7 +21,7 @@ extras_require = {
     'fasttext': [FASTTEXT],
     'tf': [
         FASTTEXT,
-        'tensorflow==2.6.0',
+        'tensorflow>=2.6.0',
         'keras==2.6.0',
     ]
 }
